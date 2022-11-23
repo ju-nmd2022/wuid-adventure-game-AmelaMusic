@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 800px;
+  margin-top: -120px;
+}
+
+body {
+  background-color: #d0c7c2;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+  width: 60%;
+  height: 500px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 60px;
+  font-family: fantasy;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+  font-style: oblique;
+}
+
+.image2 {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 1050px;
+}
+
+.keysImage {
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 135px;
+}
+
+.axeImage {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 310px;
+}
+
+.win {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 300px;
+  font-family: fantasy;
+}
+
+.win1 {
+  background-color: rgb(131, 241, 131);
+}

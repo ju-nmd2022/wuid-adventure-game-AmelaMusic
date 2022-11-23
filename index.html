@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Main.css" />
+    <script src="javascript.js" defer></script>
+  </head>
+
+  <body>
+    <title>Adventure Game</title>
+
+    <h1>Zombie Survival Game</h1>
+    <h2>Zombie herd</h2>
+
+    <h3>
+      <img
+        onclick="clickaxe()"
+        id="img1"
+        style="display: none"
+        src="AXE.png"
+        height="40"
+        width="30"
+      />
+    </h3>
+
+    <h4>
+      <img
+        class="axeImage"
+        id="axeImage"
+        src="AXE.png"
+        height="80"
+        width="70"
+        onclick="switchAxe()"
+      />
+    </h4>
+
+    <h5>
+      <img
+        id="img3"
+        style="display: none"
+        src="NOTE.png"
+        height="40"
+        width="30"
+        onclick="switchNote()"
+      />
+    </h5>
+
+    <h6>
+      <img
+        style="display: none"
+        id="keys"
+        src="CarKeys.png"
+        height="40"
+        width="30"
+      />
+    </h6>
+
+    <body>
+      <main class="container">
+        <div
+          id="leftpage"
+          class="left"
+          onclick="location.href='store.html';"
+          style="cursor: pointer"
+        >
+          <img
+            src="leftstoreArrow.png"
+            width="180"
+            height="100"
+            class="leftarrow"
+          />
+        </div>
+
+        <div class="Item-1">
+          <img
+            src="FIRST.jpeg"
+            width=""
+            height="500px"
+            class="image"
+            alt="image"
+            onclick="myFunction()"
+          />
+          <p id="click"></p>
+        </div>
+
+        <div id="rightpage" class="right" onclick="location.href='Woods.html';">
+          <img src="RightWoodsarrow.png" width="180" height="100" class="" />
+        </div>
+      </main>
+    </body>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Main.css" />
+    <script src="javascript.js" defer></script>
+    <title>Adventure Game</title>
+  </head>
+  <body>
+    <h1>Zombie Survival Game</h1>
+    <h2>Store</h2>
+    <h3>
+      <img
+        id="lock"
+        style="display: none"
+        src="lock.png"
+        height="40"
+        width="30"
+        onclick="codeLock()"
+      />
+    </h3>
+
+    <h4>
+      <img
+        id="img3"
+        style="display: none"
+        src="NOTE.png"
+        height="40"
+        width="30"
+        onclick="switchNote()"
+      />
+    </h4>
+    <h5>
+      <img
+        style="display: none"
+        id="keys"
+        src="CarKeys.png"
+        height="40"
+        width="30"
+      />
+    </h5>
+
+    <body>
+      <main class="container">
+        <div
+          class="left"
+          onclick="location.href='insidestore.html';"
+          id="inside"
+          style="cursor: pointer; display: none"
+        >
+          <img
+            src="LeftinsideStoreArrow.png"
+            width="180"
+            height="100"
+            class=""
+          />
+        </div>
+
+        <div class="Item-2">
+          <img
+            src="STORE.jpeg"
+            width=""
+            height="500px"
+            class="image"
+            alt="image"
+            onclick="clickstore()"
+          />
+        </div>
+
+        <div
+          class="left"
+          onclick="location.href='index.html';"
+          style="cursor: pointer"
+        >
+          <img src="rightZombiesArrow.png" width="180" height="100" class="" />
+        </div>
+      </main>
+    </body>
+  </body>
+</html>
