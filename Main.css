@@ -25,6 +25,26 @@ h1 {
   font-family: fantasy;
 }
 
+.first {
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+  padding: 10px;
+  background-color: rgb(219, 110, 110);
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+.woodshint {
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+  padding: 10px;
+  background-color: rgb(219, 110, 110);
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
 h2 {
   color: rgb(0, 0, 0);
   text-align: center;
